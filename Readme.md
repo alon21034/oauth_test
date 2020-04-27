@@ -33,7 +33,7 @@ python3 main.py
 
 ### Run React App for Frontend
 ```
-cd ./frontend
+cd ./frontend/demo
 npm install --save
 npm start
 
