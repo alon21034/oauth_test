@@ -23,7 +23,7 @@ virtualenv -p python3 env
 source ./env/bin/activate
 
 # install dependencies
-pip3 install -r requirement
+pip3 install -r requirements.txt
 
 # start backend server
 python3 main.py
