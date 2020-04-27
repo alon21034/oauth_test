@@ -1,5 +1,3 @@
-# Readme
-
 ## Build
 
 ### Environment
