@@ -1,0 +1,32 @@
+.login-form-item {
+  width: 256px;
+  margin-top: 16px;
+  height: 48px;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 14px;
+  font-weight: 500;
+  background: #FFFFFF;
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 2px 0px, rgba(0, 0, 0, 0.24) 0px 0px 1px 0px;
+  cursor: pointer;
+}
+
+.login-form-textfield {
+  margin-top: 16px;
+}
+
+.sign-up-button {
+  width: 256px;
+  margin-top: 16px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  box-shadow: none;
+}
+
+.response-area {
+  width: 400%;
+  margin-left: -150%;
+  margin-top: 4px;
+  margin-bottom: 12px;
+}
