@@ -72,7 +72,9 @@ def register():
 
     try:
         user = User(username, password, email)
-        _createUser(user)
+        user_id = _createUser(user)
+        res = _login(user.username, user.password)
+        return res if res else json.dumps({const.KEY_RESULT: False})
     except RegisterException as e:
         # handle error
         return json.dumps({const.KEY_RESULT:False, const.KEY_MESSAGE:str(e)})
